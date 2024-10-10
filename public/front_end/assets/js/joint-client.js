@@ -3,10 +3,10 @@
 //     box.addEventListener('click', function() {
 //         // Remove active class from all user boxes
 //         document.querySelectorAll('.user-box').forEach(item => item.classList.remove('active-user-box'));
-        
+
 //         // Add active class to the clicked box
 //         this.classList.add('active-user-box');
-        
+
 //         // Update the hidden input value with the clicked box's id
 //         document.getElementById('user-type').value = this.id;
 //         console.log(document.getElementById('user-type'));
@@ -44,4 +44,13 @@ document.querySelectorAll('.user-box').forEach(box => {
             svg2.style.display = 'block'; // Show svg2
         }
     });
+});
+
+document.getElementById('registration-form').addEventListener('submit', function(event) {
+    const userType = document.getElementById('user-type').value;
+
+    if (userType === '') {
+        event.preventDefault(); // Prevent form submission
+        alert('Please select a user type before registering.'); // Show error message
+    }
 });

@@ -78,7 +78,7 @@
       <a class="item explore-more-item" href="">explore more item-9</a>
       <div class="nav-actions">
         <a class="common-btn sign-in-btn" href="{{route('login')}}">Sign In</a>
-        <a class="common-btn join-btn" href="{{route('register')}}">Join</a>
+        <a class="common-btn join-btn" href="{{route('home.join')}}">Join</a>
       </div>
     </div>
   </div>

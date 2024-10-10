@@ -16,6 +16,11 @@ class HomeController extends Controller
     }
 
 
+    public function join()
+    {
+        return view('front_end.layouts.join');
+    }
+
     public function join_tax_prepare()
     {
         return view('front_end.layouts.join-as-preparer');
