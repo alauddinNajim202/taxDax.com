@@ -55,8 +55,7 @@
                     </g>
                     <defs>
                         <clipPath id="clip0_8547_2141">
-                            <rect width="24" height="23.6066" fill="white"
-                                transform="translate(0 0.705078)" />
+                            <rect width="24" height="23.6066" fill="white" transform="translate(0 0.705078)" />
                         </clipPath>
                     </defs>
                 </svg>
@@ -83,8 +82,8 @@
                 <div class="notification-list">
                     <a href="" class="item">
                         <div class="left">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18"
-                                viewBox="0 0 16 18" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18"
+                                fill="none">
                                 <path
                                     d="M7.56 0C6.76828 0 6.12 0.648281 6.12 1.44C6.12 1.62563 6.15656 1.80563 6.22125 1.96875C4.19625 2.49469 2.88 4.25391 2.88 6.48C2.88 9.29953 2.18812 10.5834 1.53 11.3063C1.20094 11.6677 0.876094 11.887 0.59625 12.0938C0.455625 12.1964 0.327656 12.2991 0.21375 12.4313C0.0998438 12.5634 0 12.7519 0 12.96C0 13.455 0.30375 13.8755 0.73125 14.1525C1.15875 14.4295 1.71984 14.6081 2.39625 14.7488C3.27375 14.9302 4.35656 15.0258 5.54625 15.075C5.45625 15.3141 5.4 15.5714 5.4 15.84C5.4 17.0283 6.37172 18 7.56 18C8.74828 18 9.72 17.0283 9.72 15.84C9.72 15.57 9.66516 15.3127 9.57375 15.075C10.7634 15.0258 11.8462 14.9302 12.7237 14.7488C13.4002 14.6081 13.9612 14.4295 14.3887 14.1525C14.8162 13.8755 15.12 13.455 15.12 12.96C15.12 12.7519 15.0202 12.5634 14.9062 12.4313C14.7923 12.2991 14.6644 12.1964 14.5237 12.0938C14.2439 11.887 13.9191 11.6677 13.59 11.3063C12.9319 10.5834 12.24 9.29953 12.24 6.48C12.24 4.25531 10.9209 2.4975 8.89875 1.96875C8.96344 1.80563 9 1.62563 9 1.44C9 0.648281 8.35172 0 7.56 0ZM7.56 0.72C7.96219 0.72 8.28 1.03781 8.28 1.44C8.28 1.84219 7.96219 2.16 7.56 2.16C7.15781 2.16 6.84 1.84219 6.84 1.44C6.84 1.03781 7.15781 0.72 7.56 0.72ZM8.40375 2.5875C10.3233 2.92922 11.52 4.41281 11.52 6.48C11.52 9.42047 12.2681 10.9308 13.05 11.79C13.4409 12.2189 13.8361 12.4875 14.0962 12.6788C14.2256 12.7744 14.3227 12.8545 14.3662 12.9038C14.4098 12.953 14.4 12.9488 14.4 12.96C14.4 13.185 14.2959 13.3495 13.995 13.545C13.6941 13.7405 13.2047 13.9219 12.5775 14.0513C11.3231 14.3114 9.53719 14.4 7.56 14.4C5.58281 14.4 3.79687 14.3114 2.5425 14.0513C1.91531 13.9219 1.42594 13.7405 1.125 13.545C0.824063 13.3495 0.72 13.185 0.72 12.96C0.72 12.9488 0.710156 12.953 0.75375 12.9038C0.797344 12.8545 0.894375 12.7744 1.02375 12.6788C1.28391 12.4875 1.67906 12.2189 2.07 11.79C2.85187 10.9308 3.6 9.42047 3.6 6.48C3.6 4.41422 4.79812 2.94188 6.71625 2.59875C6.95531 2.77453 7.24359 2.88 7.56 2.88C7.87922 2.88 8.16469 2.76609 8.40375 2.5875ZM6.3225 15.0975C6.72609 15.1059 7.13672 15.12 7.56 15.12C7.98328 15.12 8.39391 15.1059 8.7975 15.0975C8.92547 15.3141 9 15.57 9 15.84C9 16.6402 8.36016 17.28 7.56 17.28C6.75984 17.28 6.12 16.6402 6.12 15.84C6.12 15.5672 6.19172 15.3141 6.3225 15.0975Z"
                                     fill="#09812D" />
@@ -238,7 +237,8 @@
             </div>
         </div>
         <div class="profile-container">
-            <img id="user-account-profile-btn" src="{{asset('user_dashboard/assets/images/user.png')}}" alt="" />
+            <img id="user-account-profile-btn" src="{{ asset('user_dashboard/assets/images/user.png') }}"
+                alt="" />
 
             <!-- profile modal start -->
             <div id="user-account-modal">
@@ -250,27 +250,26 @@
                 </div>
                 <div class="bottom-info">
                     <a href="" class="item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" fill="none" stroke="" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="">
                             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                             <circle cx="12" cy="7" r="4"></circle>
                         </svg>
                         <span>Edit Profile</span>
                     </a>
                     <a href="" class="item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" fill="none" stroke="" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="">
                             <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
                         </svg>
                         <span>Activity Log</span>
                     </a>
                     <a href="" class="item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" fill="none" stroke="" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"
-                            class="feather feather-settings me-2 icon-xxs dropdown-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather feather-settings me-2 icon-xxs dropdown-item-icon">
                             <circle cx="12" cy="12" r="3"></circle>
                             <path
                                 d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
@@ -279,15 +278,25 @@
                         <span>Settings</span>
                     </a>
                     <a href="" class="item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" fill="none" stroke="" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round"
-                            class="feather feather-power me-2 icon-xxs dropdown-item-icon">
+
+
+                    </a>
+                    <a class="item" href="{{ route('logout') }}"
+                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="feather feather-power me-2 icon-xxs dropdown-item-icon">
                             <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
                             <line x1="12" y1="2" x2="12" y2="12"></line>
                         </svg>
                         <span>Sign Out</span>
                     </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
+
+
                 </div>
             </div>
             <!-- profile modal end -->

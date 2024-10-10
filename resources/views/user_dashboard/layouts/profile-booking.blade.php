@@ -343,7 +343,7 @@
                         <div class="upcoming-apointments-user-img-name">
                             <div class="upcoming-apointments-user-name-city">
                                 <h5>John Doe, CPA</h5>
-                                <p>New York, NY</p>
+                                <p>New York</p>
                             </div>
                         </div>
                         <a href="#" class="upcoming-apointments-user-link">View Profile</a>
